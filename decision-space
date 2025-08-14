@@ -1,0 +1,151 @@
+# Decision Space: <Title>
+
+> **What is a Decision Space?**  
+> A lightweight, flexible process for low‑ to moderate‑impact decisions. It helps you gather quick input from the right people without formal approval or heavy documentation.
+
+> **Use this when**  
+> - **Low–Moderate Impact:** Affects a single team or a bounded area.  
+> - **Quick Collaboration Needed:** Input required; no formal sign‑off.  
+> - **Minimal Risks:** No significant compliance, security, or major spend implications.  
+> **Not suitable?** If cross‑team/systemic impact, high risk, or irreversible, escalate to an RFC or formal decision.
+
+---
+
+## 0) Quick Summary
+- **Decision one‑liner:** `<Crisp statement of the chosen direction>`  
+- **Why now:** `<Trigger, deadline, dependency>`  
+- **Expected outcome:** `<Primary benefit/result>`
+
+---
+
+## 1) Decision Overview
+| Field | Details |
+|---|---|
+| **Status** | ☐ Not started ☐ Drafting ☐ Seeking input ☐ Decided ☐ Implementing ☐ Done ☐ Archived |
+| **Owner (DRI)** | `<Name>` |
+| **Decider (if different)** | `<Name>` |
+| **Collaborators (Consulted)** | `<Names / roles>` |
+| **Informed** | `<Names / channels>` |
+| **Due date** | `<YYYY‑MM‑DD>` |
+| **Decision date** | `<YYYY‑MM‑DD>` |
+| **Review date (optional)** | `<YYYY‑MM‑DD>` |
+| **Impact level** | ☐ Low ☐ Moderate |
+| **Reversibility** | ☐ Easy ☐ Moderate ☐ Hard |
+| **Risk level** | ☐ Low ☐ Medium |
+| **Related links** | `<Jira/Confluence/Docs/Previous decisions>` |
+| **Tags** | `<e.g., product, process, tooling>` |
+| **Version** | `v0.1` |
+| **Decision ID** | `DS‑YYYY‑NN` |
+
+---
+
+## 2) Problem or Opportunity
+- **The problem:** `<What’s the issue?>`  
+- **The opportunity (if any):** `<What can we gain?>`  
+- **Scope:** `<What’s in scope / out of scope>`  
+- **Constraints / non‑negotiables:** `<Budget, policy, technical limits>`  
+- **Assumptions & unknowns:** `<Key assumptions, open questions>`  
+- **Why now:** `<Driver such as customer need, dependency, deadline>`
+
+---
+
+## 3) Options Considered
+> Include **Option 0: Do nothing** as the baseline.
+
+| Option | Description | Pros | Cons | Effort (S/M/L) | Cost (£/$$) | Risk (L/M/H) | Reversibility | Key Dependencies |
+|---|---|---|---|---|---|---|---|---|
+| **0. Do nothing** | `<Baseline>` | `<Pros>` | `<Cons>` | `S/M/L` | `Low/Med/High` | `L/M/H` | `E/M/H` | `<Deps>` |
+| **1. …** | `<Brief>` | `<List>` | `<List>` | `S/M/L` | `Low/Med/High` | `L/M/H` | `E/M/H` | `<Deps>` |
+| **2. …** | `<Brief>` | `<List>` | `<List>` | `S/M/L` | `Low/Med/High` | `L/M/H` | `E/M/H` | `<Deps>` |
+
+---
+
+## 4) Decision Criteria
+> List the factors that matter most. Use weights only if it helps.
+
+- **Key factors:** `<e.g., time to value, customer impact, strategic fit, cost, simplicity>`  
+- **Alignment with strategy:** `<How this supports current goals/OKRs>`
+
+**(Optional) Weighted criteria matrix**
+
+| Criterion | Weight (0–5) | Notes |
+|---|---:|---|
+| Time to value | `4` | `<Comment>` |
+| Cost | `3` | `<Comment>` |
+| Strategic fit | `5` | `<Comment>` |
+| Simplicity / Maintainability | `4` | `<Comment>` |
+| Risk | `3` | `<Comment>` |
+
+---
+
+## 5) Evidence & References (Optional)
+- **Data / research:** `<Links or brief findings>`  
+- **Customer / user input:** `<Notes, quotes, tickets>`  
+- **Experiments / prototypes (if any):** `<Summary of results>`
+
+---
+
+## 6) Stakeholder Input
+| Stakeholder | Role in the decision | Feedback summary |
+|---|---|---|
+| `<Name>` | `<e.g., SME, dependent team>` | `<Key points>` |
+| `<Name>` | `<e.g., approver not required—advice sought>` | `<Key points>` |
+
+---
+
+## 7) Final Decision
+- **Chosen option:** `<# and title>`  
+- **Decision statement:** `<Clear, affirmative statement of what we will do>`  
+- **Rationale:** `<Why this option over others—tie to criteria>`  
+- **Success measures (signals & metrics):** `<Leading/lagging indicators, targets if useful>`  
+- **Guardrails / boundaries:** `<What we explicitly won’t do>`  
+- **Reversal plan:** `<How we revert if needed and within what window>`
+
+---
+
+## 8) Implementation Plan
+| Action | Owner | Due | Status |
+|---|---|---|---|
+| `<Step 1>` | `<Name>` | `<YYYY‑MM‑DD>` | ☐ |
+| `<Step 2>` | `<Name>` | `<YYYY‑MM‑DD>` | ☐ |
+
+**Resources required (Optional):** `<People, budget, tools>`  
+**Security/Privacy/Compliance (if applicable):** `<N/A or notes>`
+
+---
+
+## 9) Risks & Mitigations (Optional)
+| Risk | Impact | Likelihood | Mitigation |
+|---|---|---:|---|
+| `<Risk>` | `Low/Med/High` | `Low/Med/High` | `<Plan>` |
+
+---
+
+## 10) Communication Plan (Optional)
+| Audience | Channel | Message / link | When | Owner |
+|---|---|---|---|---|
+| `<Team/Stakeholders>` | `<e.g., Teams, email, stand‑up>` | `<What they need to know>` | `<Date>` | `<Name>` |
+
+---
+
+## 11) Post‑Decision Review
+- **Review date:** `<YYYY‑MM‑DD>`  
+- **Outcome vs success measures:** `<What happened>`  
+- **What worked well:** `<Notes>`  
+- **What to improve next time:** `<Lessons learned>`  
+- **Follow‑up actions:** `<Tasks, owners, dates>`
+
+---
+
+## 12) Changelog (Optional)
+| Date | Version | Change | Author |
+|---|---|---|---|
+| `<YYYY‑MM‑DD>` | `v0.1` | `Initial draft` | `<Name>` |
+
+<!--
+Guidance:
+- Keep it short. If you’re writing more than a page for a Low/Moderate decision, consider whether this should be an RFC.
+- Prefer clarity over completeness. Capture only the essentials to decide, implement, and learn.
+- Always include Option 0 (Do nothing) and a Reversal plan to preserve agility.
+-->
+
